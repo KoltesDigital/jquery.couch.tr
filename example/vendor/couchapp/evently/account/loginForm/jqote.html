@@ -1,0 +1,7 @@
+<% var tr = this.tr; %>
+<form>
+  <label for="name"><%= tr('Name') %></label> <input type="text" name="name" value="" autocapitalize="off" autocorrect="off">
+  <label for="password"><%= tr('Password') %></label> <input type="password" name="password" value="">
+  <input type="submit" value="<%= tr('Login') %>">
+  <a href="#signup"><%= tr('or Signup') %></a>
+</form>

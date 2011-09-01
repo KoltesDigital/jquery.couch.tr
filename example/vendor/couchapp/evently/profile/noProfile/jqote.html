@@ -1,0 +1,14 @@
+<% var tr = this.tr; %>
+<form>
+  <p><%= tr('Hello &name, Please setup your user profile.', {name : this.name}) %></p>
+  <label for="nickname"><%= tr('Nickname') %>
+    <input type="text" name="nickname" value=""></label>
+  <label for="email"><%= tr('Email (&forGravatar)', {
+    forGravatar : '<em>' + tr('for &gravatar', {
+      gravatar : '<a href="http://gravatar.com">' + tr('Gravatar') + '</a>' }) + '</em>'}) %>
+    <input type="text" name="email" value=""></label>
+  <label for="url"><%= tr('URL') %>
+    <input type="text" name="url" value=""></label>
+  <input type="submit" value="<%= tr('Go &rarr;') %>">
+  <input type="hidden" name="userCtxName" value="<%= this.name %>" id="userCtxName">
+</form>

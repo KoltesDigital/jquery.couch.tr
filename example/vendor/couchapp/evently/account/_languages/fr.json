@@ -1,0 +1,14 @@
+{
+	"Admin party, everyone is admin!" : "Admin party, tout le monde est admin !",
+	"Fix this in &futon before proceeding." : "Corrigez ça dans &futon avant de continuer.",
+	"Futon" : "Futon",
+	"Login" : "Connexion",
+	"Logout" : "Déconnexion",
+	"Name" : "Nom",
+	"or Login" : "ou Connexion",
+	"or Signup" : "ou Inscription",
+	"Password" : "Mot de passe",
+	"Signup" : "Inscription",
+	"&signup or &login" : "&signup ou &login",
+	"Welcome &name!" : "Bienvenue &name !"
+}

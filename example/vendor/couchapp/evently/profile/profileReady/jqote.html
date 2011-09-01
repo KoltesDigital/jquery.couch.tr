@@ -1,0 +1,9 @@
+<% var tr = this.tr; %>
+<div class="avatar">
+  <% if (this.gravatar_url) { %><img src="<%= this.gravatar_url%>"/><% } %>
+  <div class="name">
+    <%= this.nickname %>
+  </div>
+</div>
+<p><%= tr('Hello &name!', {name : this.nickname}) %></p>
+<div style="clear:left;"></div>

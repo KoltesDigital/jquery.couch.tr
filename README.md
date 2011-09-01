@@ -18,6 +18,6 @@ couchapp](https://github.com/Bloutiouf/couchapp) (not maintained).
 Misc
 ----
 
-Licensed under a MIT license, see the (LICENSE file)[https://github.com/Bloutiouf/jquery.couch.tr/blob/master/LICENSE].
+Licensed under a MIT license, see the [LICENSE file](https://github.com/Bloutiouf/jquery.tr/blob/master/LICENSE).
 
 Official repository: https://github.com/Bloutiouf/jquery.couch.tr

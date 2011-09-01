@@ -1,0 +1,6 @@
+<% var tr = this.tr; %>
+<span><%= tr('Welcome &name!', {
+	name : '<a target="_new" href="/_utils/document.html?' + this.auth_db + '/org.couchdb.user%3A' + this.uri_name + '">' + this.name + '</a>' 
+}) %> 
+<a href="#logout"><%= tr('Logout') %></a>
+</span>
