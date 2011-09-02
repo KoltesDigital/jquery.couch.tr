@@ -40,6 +40,6 @@ It also uses jQote2 as template engine, which is available with [my fork of couc
 Misc
 ----
 
-Licensed under a MIT license, see the [LICENSE file](https://github.com/Bloutiouf/jquery.tr/blob/master/LICENSE).
+Licensed under a MIT license, see the [LICENSE file](https://github.com/Bloutiouf/jquery.couch.tr/blob/master/LICENSE).
 
 Official site: https://github.com/Bloutiouf/jquery.couch.tr
