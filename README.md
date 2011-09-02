@@ -15,6 +15,7 @@ Translation files may be simple JSON for easy cases. They must contain an object
 If the translated texts need to be generated according to given parameters, then the file should be a JS function, which returns an object in the same format as previously. It may be easier to writer helper functions to handle language specific grammar rules:
 
 `en.js`:
+
 ```javascript
 function() {
 	function plural(singular, plural) {
