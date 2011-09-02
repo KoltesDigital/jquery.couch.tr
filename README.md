@@ -27,7 +27,8 @@ function() {
 	return {
 		'You have &1 mail(s).' : plural('You have &1 mail.', 'You have &1 mails.'
 	}
-}```
+}
+```
 
 Example
 --------
